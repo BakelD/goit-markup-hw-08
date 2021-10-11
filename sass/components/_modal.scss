@@ -97,16 +97,11 @@
 
   &-form__agreement {
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-bottom: 30px;
-    font-size: 10px;
+    font-size: 11px;
     line-height: 1.167;
     text-align: center;
-
-    @media screen and (min-width: 480px) {
-      font-size: 12px;
-    }
 
     @media screen and (min-width: 1200px) {
       font-size: 14px;
@@ -128,13 +123,9 @@
   }
 
   &-form__link {
-    font-size: 10px;
+    font-size: 11px;
     margin-left: 5px;
     color: var(--accent-color);
-
-    @media screen and (min-width: 480px) {
-      font-size: 12px;
-    }
 
     @media screen and (min-width: 1200px) {
       font-size: 14px;
