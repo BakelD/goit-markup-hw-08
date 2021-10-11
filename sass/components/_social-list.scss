@@ -28,4 +28,14 @@
   &__link:hover &__icon {
     fill: var(--white-color);
   }
+
+  .team-section & {
+    width: 206px;
+    margin: 0 auto;
+  }
+
+  .footer__appeal & {
+    width: 206px;
+    margin: 0 auto;
+  }
 }

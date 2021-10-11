@@ -1,7 +1,17 @@
+.features {
+  display: none;
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
+}
+
 .features-list {
-  display: flex;
-  margin-left: -30px;
-  margin-top: -30px;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    margin-left: -30px;
+    margin-top: -30px;
+  }
 
   &__item {
     position: relative;
